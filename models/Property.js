@@ -18,6 +18,8 @@ const propertySchema = new mongoose.Schema({
   bond: Number,
   description: String,
   features: String,
+  pet_friendly: String,
+  property_type: String,
 });
 
 const Property = mongoose.model("Property", propertySchema);
